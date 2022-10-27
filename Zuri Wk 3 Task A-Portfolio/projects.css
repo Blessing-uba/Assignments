@@ -1,0 +1,32 @@
+body{
+    background-color: antiquewhite;
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding: 0;
+    margin: auto;
+    width: 80%;
+    }
+    
+ header li{
+   float: left;
+   display: inline;
+   padding: 0 20px 0 20px;
+   overflow: hidden;
+ }
+ header nav {float: right;
+             margin-top: 10px;
+ }
+ header a{
+   text-decoration: none;
+   float: left;
+ }
+ header a:hover{
+   color:greenyellow;
+   font-weight: bold;
+ }
+ header .current a{
+   color:blueviolet;
+   font-weight: bold;
+ }
+ footer{
+   color: cadetblue;
+ }
