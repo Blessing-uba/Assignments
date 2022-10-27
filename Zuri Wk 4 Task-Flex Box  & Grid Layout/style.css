@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: hsl(0, 0%, 95%);
+  width: 100%;
+  min-height: 100hv;
+  
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  width: 60%;
+  height: 450px;
+  padding-left: 5%;
+  padding-top: 1%;
+  align-items: center;
+}
+.sedan{
+  background-color: hsl(31, 77%, 52%);
+  padding: 20px;
+  width: 100%;
+  height: 90%;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.suv{
+  background-color: hsl(184, 100%, 22%);
+  padding: 20px;
+  width: 100%;
+  height: 90%;
+  border: none;
+}
+.luxury{
+  background-color: hsl(179, 100%, 13%);
+  padding: 20px;
+  width: 100%;
+  height: 90%;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+p{
+  font-size: 12px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400px;
+  line-height: 1.5em;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+h3{
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700px;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 3rem;
+  padding-top: 3rem;
+}
+#sedan-button{
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  border-radius: 22px;
+  border: 1.4px solid white;
+  width: 115px;
+  height: 35px;
+  padding: 1.5px 20px;
+  margin-left: 15px; 
+  margin-top: 70px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400px;
+  font-size: 12px;
+}
+#suv-button{
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  border-radius: 22px;
+  border: 1.4px solid white;
+  width: 115px;
+  height: 35px;
+  padding: 1.5px 20px;
+  margin-left: 15px; 
+  margin-top: 70px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400px;
+  font-size: 12px;
+}
+#luxury-button{
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+  border-radius: 22px;
+  border: 1.4px solid white;
+  width: 115px;
+  height: 35px;
+  padding: 1.5px 20px;
+  margin-left: 15px; 
+  margin-top: 70px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400px;
+  font-size: 12px;
+}
+img{
+  width: 35%;
+  padding-left: 20px;
+  padding-top: 20px;
+
+}
+#suv-button:hover{
+  color:blueviolet;
+}
+#sedan-button:hover{
+  color:blueviolet;
+}
+#luxury-button:hover{
+  color:blueviolet;
+}
+
+.grid-button{
+  color: white;
+  background-color: blueviolet;
+  border-radius: 5px;
+  border: none;
+  width: 20%;
+  height: 40px;
+ 
+} 
+a{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 375px){
+ body{
+  background-color: hsl(0, 0%, 95%);
+}
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 70%;
+  height: 100vh;
+  padding-bottom: 5%;
+  padding-top: 5%;
+} 
+ 
+}
+@media screen and (min-width: 1440px){
+  body{
+  background-color: black;
+}
+  .flex-container{
+   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  width: 60%;
+  height: 450px;
+  padding-left: 5%;
+  padding-top: 1%;
+  align-items: center;
+}
+}
